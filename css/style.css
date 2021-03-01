@@ -26,6 +26,17 @@ header {
   font-family: sans-serif;
 }
 
+header img {
+  max-width: 100%;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+
+header .desc {
+  color: #3DCFD3;
+  font-weight: 600;
+}
+
 header .name span {
   font-size: 2rem;
   letter-spacing: 1.7rem;

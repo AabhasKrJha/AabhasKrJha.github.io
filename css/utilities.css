@@ -21,6 +21,13 @@
           transform: translate(-50%, -50%);
 }
 
+.center-y {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
 .x-center {
   position: absolute;
   left: 50%;

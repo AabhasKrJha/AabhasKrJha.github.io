@@ -23,6 +23,14 @@
 
 header{
     font-family: sans-serif;
+    img{
+        max-width: 100%;
+        filter: blur(10px);
+    }
+    .desc{
+        color: #3DCFD3;
+        font-weight: 600;
+    }
     .name{
         span{
             font-size: 2rem;
