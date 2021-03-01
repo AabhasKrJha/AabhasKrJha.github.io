@@ -28,8 +28,8 @@ header {
 
 header img {
   max-width: 100%;
-  -webkit-filter: blur(10px);
-          filter: blur(10px);
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
 }
 
 header .desc {
