@@ -1,0 +1,86 @@
+@import url("utilities.css");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main button {
+  float: right;
+  padding: 0.5rem 1.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+header {
+  font-family: sans-serif;
+}
+
+header .name span {
+  font-size: 2rem;
+  letter-spacing: 1.7rem;
+}
+
+header .occupation {
+  margin-top: 2rem;
+}
+
+header .occupation .basic, header .occupation .typed-text {
+  font-size: x-large;
+  letter-spacing: 0.7rem;
+}
+
+header .occupation .cursor {
+  width: 1px;
+  -webkit-animation: blink 1s infinite;
+          animation: blink 1s infinite;
+}
+
+header .occupation .typing {
+  -webkit-animation: none;
+          animation: none;
+}
+
+footer {
+  width: 100%;
+  padding: 5rem;
+  font-family: sans-serif;
+  position: absolute;
+  top: 100%;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+footer .left .icon {
+  font-family: 'Open Sans', sans-serif;
+  font-size: xx-large;
+}
+
+footer .left .icon span {
+  margin-left: 4px;
+  color: #3DCFD3;
+}
+
+footer .left nav {
+  margin-left: 2rem;
+}
+
+footer .left nav a {
+  margin-right: 1rem;
+}
+
+footer .right a {
+  font-size: larger;
+  margin-left: 1vw;
+}
+/*# sourceMappingURL=style.css.map */

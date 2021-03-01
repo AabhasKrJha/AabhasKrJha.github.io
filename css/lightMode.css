@@ -1,0 +1,44 @@
+@-webkit-keyframes blink {
+  0% {
+    background-color: black;
+  }
+  49% {
+    background-color: black;
+  }
+  50% {
+    background-color: white;
+  }
+  99% {
+    background-color: black;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+@keyframes blink {
+  0% {
+    background-color: black;
+  }
+  49% {
+    background-color: black;
+  }
+  50% {
+    background-color: white;
+  }
+  99% {
+    background-color: black;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+footer .left nav a {
+  color: black;
+}
+
+footer .right a {
+  color: black;
+}
+/*# sourceMappingURL=lightMode.css.map */

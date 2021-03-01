@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+}
+
+header .name span {
+  color: white;
+}
+
+header .occupation {
+  color: white;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    background-color: white;
+  }
+  49% {
+    background-color: white;
+  }
+  50% {
+    background-color: black;
+  }
+  99% {
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes blink {
+  0% {
+    background-color: white;
+  }
+  49% {
+    background-color: white;
+  }
+  50% {
+    background-color: black;
+  }
+  99% {
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+footer .left nav a {
+  color: white;
+}
+
+footer .right a {
+  color: white;
+}
+/*# sourceMappingURL=darkMode.css.map */

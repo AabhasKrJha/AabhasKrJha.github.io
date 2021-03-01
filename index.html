@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aabhas Kumar Jha | Web Developer</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" id=theme href="css/lightMode.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        function toggleCSS() {
+            var lightCSS ="css/lightMode.css";
+            var darkCSS ="css/darkMode.css";
+            var sheet = document.getElementById("theme");
+            if (sheet.getAttribute('href') == lightCSS){
+                sheet.setAttribute('href', darkCSS);
+            } else{
+                sheet.setAttribute('href', lightCSS);
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div class="main">
+
+        <button class="mode-btn" onclick="toggleCSS()">switch theme</button>
+
+        <header>
+            PORTFOLIO STILL UNDER DEVELEOPMENT
+            <div class="container global-center">
+                <div class="name"> <span>AABHAS KUMAR JHA</span> </div>
+                <div class="occupation">
+                    <center>
+                        <span class="basic">Student + </span> <br> <br>
+                        <span class="typed-text"></span>
+                        <span class="cursor typing"> &nbsp; </span>
+                        <script src="type.js"></script>
+                    </center>
+                </div>
+            </div>
+        </header>
+
+        <footer class="flex justify-between">
+            <div class="left flex">
+                <div class="icon items-center justify-between">
+                    <div class="flex concentric"></div>
+                    <span>AKJ</span>
+                </div>
+                <nav class="items-center">
+                    <a href="#home">HOME</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#projects">PROJECTS</a>
+                    <a href="#contact">CONTACT-ME</a>
+                </nav>
+            </div>
+            
+            <div class="right flex items-center">
+                <a class="fa fa-instagram" href="https://www.instagram.com/the_aabhas_kr_jha007/"></a>
+                <a class="fa fa-twitter" href="https://twitter.com/"></a>
+                <a class="fa fa-github" href="https://github.com/AabhasKrJha"></a>
+            </div>
+        </footer>
+
+    </div>
+    
+</body>
+</html>
