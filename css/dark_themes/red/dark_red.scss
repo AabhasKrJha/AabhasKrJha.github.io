@@ -1,0 +1,31 @@
+* {
+  color: red;
+}
+
+.first-view {
+  background-color: black;
+}
+
+.main-frame {
+  background-color: black;
+  border-bottom: 5px solid red;
+
+  #desc {
+    .left {
+      .mail {
+        button {
+          background-color: red;
+          color: black;
+        }
+      }
+    }
+    .right {
+      a {
+        color: rgb(255, 143, 143);
+      }
+      a:hover {
+        color: red;
+      }
+    }
+  }
+}
