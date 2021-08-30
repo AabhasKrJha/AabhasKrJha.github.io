@@ -6,6 +6,12 @@
   background-color: whitesmoke;
   border-bottom: 5px solid black;
 
+  #theme-switches {
+    .circle {
+      border: 1px solid black;
+    }
+  }
+
   #desc {
     .left {
       .mail {

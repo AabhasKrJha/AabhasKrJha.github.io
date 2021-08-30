@@ -1,0 +1,33 @@
+@import url(../dark_utilities/dark_utilities.css);
+
+* {
+  color: whitesmoke;
+}
+
+.first-view {
+  background-color: rgb(18, 20, 22);
+}
+
+.main-frame {
+  background-color: rgb(18, 20, 22);
+  border-bottom: 5px solid whitesmoke;
+
+  #desc {
+    .left {
+      .mail {
+        button {
+          background-color: whitesmoke;
+          color: rgb(18, 20, 22);
+        }
+      }
+    }
+    .right {
+      a {
+        color: #999;
+      }
+      a:hover {
+        color: whitesmoke;
+      }
+    }
+  }
+}

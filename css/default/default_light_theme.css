@@ -7,6 +7,10 @@
   border-bottom: 5px solid black;
 }
 
+.main-frame #theme-switches .circle {
+  border: 1px solid black;
+}
+
 .main-frame #desc .left .mail button {
   background-color: black;
   color: white;

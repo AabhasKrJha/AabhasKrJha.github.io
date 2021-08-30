@@ -6,17 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aabhas Kumar Jha (dev)</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/default/default_light_theme.css">
+    <!--CSS Stylesheets-->
+    <link rel="stylesheet" href="css/basic/style.css"> <!--basic structural style sheet-->
+    <link rel="stylesheet" href="css/default/default_light_theme.css" id="theme-sheet"> <!--theme stylesheet-->
 
-    <script src="script.js"></script>
+    <!--JS files-->
+    <script src="js/script.js"></script>
 </head>
 <body>
 
+    <!--The first view of the page-->
     <div class="first-view">
 
+        <!--The frame that contains the fisrt view-->
         <div class="main-frame grid-row-5-1-4">
 
+            <!--name-->
             <section id="name" class="flex-column-rev">
                 <span>
                     <span class="name">Aabhas</span> 
@@ -24,28 +29,45 @@
                 </span>
             </section>
 
+            <!--Theme Switches-->
             <section id="theme-switches">
-                <span class="circle white"></span>
-                <span class="circle green"></span>
-                <span class="circle red"></span>
-                <span class="circle blue"></span>
+                <span><!--light theme (default)-->
+                    <span class="circle default-light" onclick="change_theme('light');"></span>
+                    <!-- <span class="theme-text">Light Theme</span> -->
+                </span>
+                <span><!--Dark-theme (lights out)-->
+                    <span class="circle default-dark" onclick="change_theme('dark');"></span>
+                    <!-- <span class="theme-text">Light Out</span> -->
+                </span>
+                <span><!--Dim Theme-->
+                    <span class="circle dim" onclick="change_theme('dim');"></span>
+                    <!-- <span class="theme-text">Dim</span> -->
+                </span>
+                <span><!--Dark Red-->
+                    <span class="circle dark-red" onclick="change_theme('red');"></span>
+                    <!-- <span class="theme-text">Dark Red</span> -->
+                </span>
             </section>
 
+            <!--About section of the fisrt view-->
             <section id="desc" class="grid-column-7-3">
                 <div class="left vertical-center">
                     <span class="mail">
-                        aabhaskrjha@gmail.com
-                        <button>Copy</button>
+                        aabhaskrjha@gmail.com <!--mail-->
+                        <button id="copy_mail_btn" onclick="copy_mail()";>Copy</button> <!--copy mail button-->
                     </span> <br>
+                    <!--Designations-->
                     <h3 class="designation">/Student</h3>
                     <h3 class="designation">/Programmer</h3>
                 </div>
                 <div class="right vertical-center">
+                    <!--About Me-->
                     <span>18 Year Old</span>
                     <span>Seld Taught Programmer</span>
                     <Span>Turning Bugs into Features</Span>
                     <span>Based in Delhi, India</span> <br>
-                    <section class="socials">
+                    <!--Social Media links-->
+                    <section class="socials"> 
                         <a href="https://www.instagram.com/aabhaskrjha_73/">Instagram</a> |
                         <a href="https://www.twitter.com/AabhasKrJha/">Twitter</a> |
                         <a href="https://www.github.com/AabhasKrJha/">Github</a>

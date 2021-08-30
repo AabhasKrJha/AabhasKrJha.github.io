@@ -1,5 +1,7 @@
+@import url(../dark_utilities/dark_utilities.css);
+
 * {
-  color: red;
+  color: white;
 }
 
 .first-view {
@@ -8,23 +10,23 @@
 
 .main-frame {
   background-color: black;
-  border-bottom: 5px solid red;
+  border-bottom: 5px solid white;
 
   #desc {
     .left {
       .mail {
         button {
-          background-color: red;
+          background-color: white;
           color: black;
         }
       }
     }
     .right {
       a {
-        color: rgb(255, 143, 143);
+        color: #999;
       }
       a:hover {
-        color: red;
+        color: white;
       }
     }
   }

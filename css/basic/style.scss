@@ -1,4 +1,4 @@
-@import url("utilities/utilities.css");
+@import url("../utilities/utilities.css");
 
 * {
   margin: 0;
@@ -25,17 +25,21 @@
   }
 
   #theme-switches {
-    .white {
-      background-color: white;
+    .default-light {
+      background: linear-gradient(to right, whitesmoke 50%, black 50%);
     }
-    .red {
-      background-color: red;
+    .default-dark {
+      background: linear-gradient(to right, black 50%, white 50%);
     }
-    .green {
-      background-color: green;
+    .dim {
+      background: linear-gradient(
+        to right,
+        rgb(18, 20, 22) 50%,
+        whitesmoke 50%
+      );
     }
-    .blue {
-      background-color: blue;
+    .dark-red {
+      background: linear-gradient(to right, black 50%, red 50%);
     }
   }
 

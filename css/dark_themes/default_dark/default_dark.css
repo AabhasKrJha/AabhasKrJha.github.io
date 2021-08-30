@@ -1,5 +1,6 @@
+@import url(../dark_utilities/dark_utilities.css);
 * {
-  color: red;
+  color: white;
 }
 
 .first-view {
@@ -8,19 +9,19 @@
 
 .main-frame {
   background-color: black;
-  border-bottom: 5px solid red;
+  border-bottom: 5px solid white;
 }
 
 .main-frame #desc .left .mail button {
-  background-color: red;
+  background-color: white;
   color: black;
 }
 
 .main-frame #desc .right a {
-  color: #ff8f8f;
+  color: #999;
 }
 
 .main-frame #desc .right a:hover {
-  color: red;
+  color: white;
 }
-/*# sourceMappingURL=dark_red.css.map */
+/*# sourceMappingURL=default_dark.css.map */
