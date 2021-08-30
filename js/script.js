@@ -18,9 +18,7 @@ function change_theme(theme){
     } else if (theme === 'red'){
         theme_css_sheet.href = dark_red_theme;
     };
-
-    theme_icon.style.border = '4px dotted green'
-
+    
 };
 
 
