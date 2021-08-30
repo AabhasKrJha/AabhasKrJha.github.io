@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aabhas Kumar Jha (under dev)</title>
 
+    <!--CSS Stylesheets-->
+    <link rel="stylesheet" href="css/basic/style.css"> <!--basic structural style sheet-->
+    <link rel="stylesheet" href="css/default/default_light_theme.css" id="theme-sheet"> <!--theme stylesheet-->
+
+    <!--JS files-->
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <!--The first view of the page-->
+    <div class="first-view">
+
+        <!--The frame that contains the fisrt view-->
+        <div class="main-frame grid-row-5-1-4">
+
+            <!--name-->
+            <section id="name" class="flex-column-rev">
+                <span>
+                    <span class="name">Aabhas</span> 
+                    <sub>[Under Dev]</sub>
+                </span>
+            </section>
+ 
+            <!--Theme Switches-->
+            <section id="theme-switches">
+                <span><!--light theme (default)-->
+                    <span id="light" class="circle default-light" onclick="change_theme('light');"></span>
+                    <!-- <span class="theme-text">Light Theme</span> -->
+                </span>
+                <span><!--Dark-theme (lights out)-->
+                    <span id="dark" class="circle default-dark" onclick="change_theme('dark');"></span>
+                    <!-- <span class="theme-text">Light Out</span> -->
+                </span>
+                <span><!--Dim Theme-->
+                    <span id="dim" class="circle dim" onclick="change_theme('dim');"></span>
+                    <!-- <span class="theme-text">Dim</span> -->
+                </span>
+                <span><!--Dark Red-->
+                    <span id="red" class="circle dark-red" onclick="change_theme('red');"></span>
+                    <!-- <span class="theme-text">Dark Red</span> -->
+                </span>
+            </section>
+
+            <!--About section of the fisrt view-->
+            <section id="desc" class="grid-column-7-3">
+                <div class="left vertical-center">
+                    <span class="mail">
+                        aabhaskrjha@gmail.com <!--mail-->
+                        <button id="copy_mail_btn" onclick="copy_mail()";>Copy</button> <!--copy mail button-->
+                    </span> <br>
+                    <!--Designations-->
+                    <h3 class="designation">/Student</h3>
+                    <h3 class="designation">/Programmer</h3>
+                </div>
+                <div class="right vertical-center">
+                    <!--About Me-->
+                    <span>18 Year Old</span>
+                    <span>Seld Taught Programmer</span>
+                    <Span>Turning Bugs into Features</Span>
+                    <span>Based in Delhi, India</span> <br>
+                    <!--Social Media links-->
+                    <section class="socials"> 
+                        <a href="https://www.instagram.com/aabhaskrjha_73/">Instagram</a> |
+                        <a href="https://www.twitter.com/AabhasKrJha/">Twitter</a> |
+                        <a href="https://www.github.com/AabhasKrJha/">Github</a>
+                    </section>
+                </div>
+            </section>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
