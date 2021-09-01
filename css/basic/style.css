@@ -2,7 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: sans-serif;
 }
 
@@ -16,22 +17,32 @@
   max-width: 100%;
   height: 100%;
 }
+
 .main-frame #name span .name {
   font-size: 200px;
   font-weight: 800;
 }
+
 .main-frame #theme-switches .default-light {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, whitesmoke), color-stop(50%, black));
   background: linear-gradient(to right, whitesmoke 50%, black 50%);
 }
+
 .main-frame #theme-switches .default-dark {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, black), color-stop(50%, white));
   background: linear-gradient(to right, black 50%, white 50%);
 }
+
 .main-frame #theme-switches .dim {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #15202b), color-stop(50%, whitesmoke));
   background: linear-gradient(to right, #15202b 50%, whitesmoke 50%);
 }
+
 .main-frame #theme-switches .dark-red {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, black), color-stop(50%, red));
   background: linear-gradient(to right, black 50%, red 50%);
 }
+
 .main-frame #desc .left .mail button {
   padding: 10px;
   outline: none;
@@ -39,9 +50,12 @@
   border-radius: 4px;
   cursor: pointer;
 }
+
 .main-frame #desc .left .designation {
   font-size: 30px;
 }
+
 .main-frame #desc .right a {
   text-decoration: none;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
