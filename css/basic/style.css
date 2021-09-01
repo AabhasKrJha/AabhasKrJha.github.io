@@ -43,6 +43,11 @@
   background: linear-gradient(to right, black 50%, red 50%);
 }
 
+.main-frame #theme-switches .light-green {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, white), color-stop(50%, #36e674));
+  background: linear-gradient(to right, white 50%, #36e674 50%);
+}
+
 .main-frame #desc .left .mail button {
   padding: 10px;
   outline: none;

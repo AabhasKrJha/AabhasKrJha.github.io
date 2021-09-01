@@ -1,0 +1,34 @@
+* {
+  color: #36e674;
+}
+
+.first-view {
+  background-color: whitesmoke;
+}
+
+.main-frame {
+  background-color: whitesmoke;
+  border-bottom: 5px solid black;
+}
+
+.main-frame #theme-switches .circle {
+  border: 1px solid black;
+}
+
+.main-frame #desc .left .mail button {
+  background-color: #36e674;
+  color: white;
+}
+
+.main-frame #desc .left .designation {
+  font-size: 30px;
+}
+
+.main-frame #desc .right a {
+  color: #999;
+}
+
+.main-frame #desc .right a:hover {
+  color: #36e674;
+}
+/*# sourceMappingURL=theme.css.map */
