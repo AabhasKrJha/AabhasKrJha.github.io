@@ -11,17 +11,13 @@
   background-color: black;
   border-bottom: 5px solid white;
 }
-
 .main-frame #desc .left .mail button {
   background-color: white;
   color: black;
 }
-
 .main-frame #desc .right a {
   color: #999;
 }
-
 .main-frame #desc .right a:hover {
   color: white;
-}
-/*# sourceMappingURL=default_dark.css.map */
+}/*# sourceMappingURL=default_dark.css.map */

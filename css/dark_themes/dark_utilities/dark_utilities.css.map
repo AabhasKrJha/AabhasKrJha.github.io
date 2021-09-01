@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AACE,eADa,CACb,OAAO,CAAC;EACN,MAAM,EAAE,eAAe;CACxB",
-    "sources": [
-        "dark_utilities.scss"
-    ],
-    "names": [],
-    "file": "dark_utilities.css"
-}
+{"version":3,"sources":["dark_utilities.scss"],"names":[],"mappings":"AACE;EACE,uBAAA;AAAJ","file":"dark_utilities.css"}
